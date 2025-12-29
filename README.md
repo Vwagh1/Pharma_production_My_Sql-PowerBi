@@ -1,11 +1,11 @@
-Pharma Manufacturing Data Analysis (MySQL + Power BI)
+# Pharma Manufacturing Data Analysis (MySQL + Power BI)
 
 This project is based on a pharmaceutical manufacturing dataset that I generated and cleaned to practice real-world data analysis.
 I worked on different steps like data cleaning, database design, SQL analysis, and building a Power BI dashboard for insights.
 
 This is still an ongoing project, and I will keep adding more SQL queries and dashboards as I improve it.
 
-Project Overview :-
+## Project Overview :-
 
 The purpose of this project was to understand how a pharma production system works and how data can be used to check:
 Batch quality,
@@ -14,13 +14,13 @@ Employee contribution,
 Defects and rejection trends,
 Production cost and yield.
 
-I used multiple tools for this:
+## I used multiple tools for this:
 
 MySQL → Data cleaning, constraints, joins, and analysis
 Power BI → Dashboard and visual insights
 Excel → Initial data files
 
-What I Did in SQL:-
+## What I Did in SQL:-
 
 Cleaned the data,
 Fixed null values,
@@ -29,7 +29,7 @@ Standardized text,
 Checked date formats,
 Trimmed unnecessary spaces.
 
-Added constraints:-
+## Added constraints:-
 
 Primary keys,
 Foreign keys,
@@ -51,7 +51,7 @@ Created reporting queries
 These queries are used in the Power BI visuals.
 All SQL queries are inside pharma_sql_project.sql.
 
-Power BI Dashboard:-
+## Power BI Dashboard:-
 
 I created a Power BI report that shows:
 Overall production summary
@@ -65,7 +65,7 @@ I have added the .pbix file in the Power BI folder.
 
 
 
-Key Insights I Found:-
+## Key Insights I Found:-
 
 A few machines show higher downtime which affects batch yield.
 Some operators consistently achieve better yield.
@@ -74,7 +74,7 @@ Temperature and pressure variations strongly influence batch rejection.
 Cost per batch is higher when yield drops below a certain range.
 
 
-Tools Used:-
+## Tools Used:-
 
 MySQL Workbench
 
@@ -85,7 +85,7 @@ Microsoft Excel
 
 
 
-What I Plan to Add Next:-
+## What I Plan to Add Next:-
 More advanced SQL optimization
 New dashboards for cost and machine analysis
 Predictive insights based on defect patterns
